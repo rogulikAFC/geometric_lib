@@ -1,10 +1,27 @@
 import math
 
+def area(r:float) -> float:
+    """
+    Принимает значение радиуса r круга, возвращает площадь круга.
 
-def area(r):
+    Параметры:
+        r (float): длина радиуса круга
+
+    Возвращаемое значение:
+        area (float): площадь круга
+    """
     return math.pi * r * r
 
 
-def perimeter(r):
+def perimeter(r:float) -> float:
+    """
+    Принимает значение радиуса r круга, возращается периметр круга.
+
+    Параметры:
+        r (float): длина радиуса круга
+    
+    Возвращаемое значение:
+        perimeter (float): периметр круга
+    """
     return 2 * math.pi * r
 
