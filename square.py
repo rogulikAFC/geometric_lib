@@ -8,6 +8,9 @@ def area(a:float) -> float:
     Возвращаемое значение:
         area (float): площадь квадрата
     """
+    if a < 0:
+        raise ValueError("a must be non-negative")
+    
     return a * a
 
 
@@ -21,4 +24,7 @@ def perimeter(a:float) -> float:
     Возвращаемое значение:
         perimeter (float): периметр квадрата
     """
+    if a < 0:
+        raise ValueError("a must be non-negative")
+    
     return 4 * a

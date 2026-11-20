@@ -1,4 +1,4 @@
-def area(a:float, b:float): 
+def area(a:float, b:float) -> float: 
     """
     Принимает значение длин сторон прямоугольника a и b, возвращает площадь прямоугольника.
 
@@ -9,9 +9,12 @@ def area(a:float, b:float):
     Возвращаемое значение:
         area (float): площадь прямоугольника
     """
+    if a < 0 or b < 0:
+        raise ValueError("sides must be non-negative")
+    
     return a * b
 
-def perimeter(a:float, b:float): 
+def perimeter(a:float, b:float) -> float: 
     """
     Принимает значение длин сторон прямоугольника a и b, возвращает периметр прямоугольника.
 
@@ -22,4 +25,7 @@ def perimeter(a:float, b:float):
     Возвращаемое значение:
         perimeter (float): периметр прямоугольника
     """
+    if a < 0 or b < 0:
+        raise ValueError("sides must be non-negative")
+    
     return 2 * (a + b) 
