@@ -138,6 +138,8 @@
 
 | Хеш коммита | Сообщение коммита |
 | :--- | :--- |
+| `41fd6eb` | Unit tests added |
+| `a4363a8` | Documentation added |
 | `8fc20c6` | Triangle.py added, rectangle perimeter bug fixed |
 | `c44fbc2` | Rectangle.py added |
 | `d078c8d` | L-03: Docs added |
